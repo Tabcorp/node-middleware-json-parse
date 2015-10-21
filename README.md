@@ -1,4 +1,4 @@
-# node-middleware-json-parse [![stability][0]][1]
+# middleware-json-parse [![stability][0]][1]
 [![npm version][2]][3] [![build status][4]][5] [![test coverage][6]][7]
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
@@ -12,12 +12,12 @@ __Features:__
 
 ## Installation
 ```sh
-$ npm install node-middleware-json-parse
+$ npm install middleware-json-parse
 ```
 
 ## Usage
 ```js
-const parseJson = require('node-middleware-json-parse')
+const parseJson = require('middleware-json-parse')
 const middleware = require('http-middleware')
 const http = require('http')
 
@@ -49,13 +49,13 @@ and call `next` when done. Only parses content if the
 
 [0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
 [1]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[2]: https://img.shields.io/npm/v/node-middleware-json-parse.svg?style=flat-square
-[3]: https://npmjs.org/package/node-middleware-json-parse
-[4]: https://img.shields.io/travis/tabdigital/node-middleware-json-parse/master.svg?style=flat-square
-[5]: https://travis-ci.org/tabdigital/node-middleware-json-parse
-[6]: https://img.shields.io/codecov/c/github/tabdigital/node-middleware-json-parse/master.svg?style=flat-square
-[7]: https://codecov.io/github/tabdigital/node-middleware-json-parse
-[8]: http://img.shields.io/npm/dm/node-middleware-json-parse.svg?style=flat-square
-[9]: https://npmjs.org/package/node-middleware-json-parse
+[2]: https://img.shields.io/npm/v/middleware-json-parse.svg?style=flat-square
+[3]: https://npmjs.org/package/middleware-json-parse
+[4]: https://img.shields.io/travis/TabDigital/node-middleware-json-parse/master.svg?style=flat-square
+[5]: https://travis-ci.org/TabDigital/node-middleware-json-parse
+[6]: https://img.shields.io/codecov/c/github/TabDigital/node-middleware-json-parse/master.svg?style=flat-square
+[7]: https://codecov.io/github/TabDigital/node-middleware-json-parse
+[8]: http://img.shields.io/npm/dm/middleware-json-parse.svg?style=flat-square
+[9]: https://npmjs.org/package/middleware-json-parse
 [10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [11]: https://github.com/feross/standard
