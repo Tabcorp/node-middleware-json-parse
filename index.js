@@ -1,3 +1,4 @@
+const httpError = require('http-custom-errors')
 const parseJson = require('safe-json-parse')
 const isReq = require('is-incoming-message')
 const isRes = require('is-server-response')
@@ -38,5 +39,5 @@ function nodeMiddlewareJsonParse (ctx, propName, fmtErr) {
 // default JSON format fn
 // null -> obj
 function dftFmt () {
-  return { message: 'Invalid JSON' }
+  return new httpError.BadRequestError('Invalid JSON')
 }

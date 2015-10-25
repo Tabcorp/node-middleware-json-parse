@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "concat-stream": "^1.5.1",
+    "http-custom-errors": "^8.0.0",
     "is-incoming-message": "^1.0.0",
     "is-server-response": "^1.0.0",
     "noop2": "^2.0.0",
