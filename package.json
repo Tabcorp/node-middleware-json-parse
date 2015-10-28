@@ -1,6 +1,6 @@
 {
   "name": "middleware-json-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON parsing middleware",
   "main": "index.js",
   "scripts": {
