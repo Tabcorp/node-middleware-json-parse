@@ -56,7 +56,10 @@ test('should return an err on malformed json', function (t) {
     const ctx = {}
     const parse = parseJson(ctx, 'body')
     parse(req, res, function (err) {
-      t.deepEqual(err, { message: 'Invalid JSON' })
+      t.deepEqual(err, {
+        code: 400,
+        status: 'Bad Request'
+      })
       t.deepEqual(ctx, {})
     })
     res.end()
